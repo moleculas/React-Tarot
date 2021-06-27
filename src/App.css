@@ -1,0 +1,126 @@
+html,
+body {
+  overscroll-behavior-y: contain;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  user-select: none;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial,
+    sans-serif;
+  position: fixed;
+  overflow: hidden;
+  background-color: rgb(119, 124, 124);
+}
+
+#root_cards {
+  background: url('images/casino-table.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  cursor: url('images/cursor.png') 39 39, auto;
+  position: absolute;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+ 
+
+}
+
+#root_cards > div {
+  position: absolute;
+ /* width: 80vw;  */
+
+   height: 100vh;
+  will-change: transform;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#root_cards > div > div {
+  background-color: white;
+  /* background-size: auto 85%; */
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 45vh;
+  max-width: 350px;
+  height: 85vh;
+  /* max-height: 570px; */
+  max-height: 70vh;
+  will-change: transform;
+  border-radius: 10px;
+  /* box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4), 0 10px 10px -10px rgba(50, 50, 73, 0.3); */
+  /* box-shadow: 0 12.5px 100px -10px rgba(49, 114, 74, 0.4), 0 10px 10px -10px rgba(50, 50, 73, 0.3); */
+  box-shadow: 0 12.5px 50px -10px rgba(33, 36, 34, 0.4), 0 10px 10px -10px rgba(50, 50, 73, 0.1);
+}
+#left_side{
+  color: white;
+  padding-top: 0.5vh;
+  padding-left: 20px;
+}
+
+ul.dropdown-content.select-dropdown li span {
+  color: rgb(119, 124, 124);
+}
+
+.select-wrapper input.select-dropdown:focus {
+  border-bottom: 1px solid #9e9e9e;
+}
+
+.select-wrapper input.select-dropdown{
+  color: white;
+}
+
+.dropdown-trigger{
+  color: white !important;
+}
+
+.caret {      
+  fill: white !important;
+}
+.justificat{
+  text-align: justify;
+  font-size: 1.5vh;
+}
+.justificat2{  
+  font-size: 2.5vh;
+}
+.justificat5{  
+  font-size: 1.5vh;
+  text-align: justify;
+  padding-right: 20px;
+}
+#elResultado{
+  text-align: left;
+}
+#elResultado h6{
+  background-color: white;
+  color: rgb(119, 124, 124);
+  font-weight: bold;
+  padding: 3px;
+}
+.colorGris{  
+  color: rgb(119, 124, 124) !important;  
+}
+.card-panel{
+  padding: 14px !important;  
+  margin-bottom: 0px !important;  
+  text-align: center;
+  margin-right: 15px;
+}
+.collapsible-body{
+  padding: 0.8rem !important;
+  text-align: justify !important;
+}
+
+#left_side > div > div {
+  margin-right: -15px;
+}
+.mari-15{
+padding-right: 15px;
+}
