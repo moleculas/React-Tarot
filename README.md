@@ -1,6 +1,6 @@
 # Tarot React
 
-Selector de cartas de Tarot desarrollado con [React](https://es.reactjs.org/) estilizada con [Materialize CSS](https://materializecss.com/)
+Selector de cartas de Tarot desarrollado con [React](https://es.reactjs.org/) estilizado con [Materialize CSS](https://materializecss.com/)
 
 ## Demo
 
